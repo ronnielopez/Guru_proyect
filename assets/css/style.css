@@ -12,19 +12,18 @@
 }
 
 
-/*
+
 .fondo_img{
     background-image: url('../img/Web\ 1920\ –\ 11@2x.png');
-    
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
  
-  position: relative;
-}*/
-
-.cuadro-texto{
-    width: 200px;
 }
+
+.cards_costom{
+    border-color: transparent;
+    width: 300px;
+    height: 95px;
+}
+
