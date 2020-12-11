@@ -17,13 +17,60 @@
     background-image: url('../img/Web\ 1920\ –\ 11@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100%;
 
- 
+}
+
+.fondo_img_servicios{
+    background-image: url('https://airwallpaper.com/wp-content/uploads/wall002/Airplane-Wallpaper-HD-Free-Download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cards_costom{
     border-color: transparent;
     width: 300px;
     height: 95px;
+    background-color: transparent;
+    border-color: transparent;
 }
 
+.active-link{
+    border-right-color: #fff;
+    border-right-style: solid;
+}
+
+.contact-inicio-btn{
+    border-radius: 30px;
+    width: 150px;
+}
+
+.btn-none-border{
+    border-color: transparent;
+}
+
+.amarillo{
+    color: #f48c06;
+    font-size: 2rem;
+}
+
+.cards-smile-fixed{
+    white-space: nowrap;
+    margin-left: 22px;
+}
+.cards-dollar-fixed{
+    margin-left: 25px;
+}
+
+.cards-service-custom{
+    background-color: transparent;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 50px 50px 50px 50px;
+    width: 300px;
+}
+
+.icon-card-service{
+    font-size: 3rem;
+}
