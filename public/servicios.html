@@ -11,24 +11,26 @@
     <title>Inicio</title>
 </head>
 
-<body class="fondo_img_servicios">
+<body class="fondo_degradado">
     <nav class="navbar navbar-expand-md navbar-dark navbar-trans">
         <div class="d-flex w-50">
             <a class="navbar-brand mr-0 text-muted" href="#">Ventos</a>
         </div>
         <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
             <ul class="navbar-nav">
-                <li class="nav-item active menu_left">
-                    <a class="nav-link text-white pl-5" href="#">Inicio</a>
+                <li class="nav-item menu_left pl-5">
+                        <a class="nav-link text-white" href="index.html">Inicio</a>
                 </li>
-                <li class="nav-item menu_left_icons">
-                    <a class="nav-link text-white pl-5" href="#">Nosotros</a>
+                <li class="nav-item menu_left_icons pl-5">
+                    <a class="nav-link text-white" href="#">Nosotros</a>
                 </li>
-                <li class="nav-item menu_left_icons">
-                    <a class="nav-link text-white active-link pl-5" href="#">Servicios</a>
+                <li class="nav-item menu_left_icons pl-5">
+                    <div class="caja">
+                    <a class="nav-link text-white" href="servicios.html">Servicios</a>
+                    </div>
                 </li>
-                <li class="nav-item menu_left_icons">
-                    <a class="nav-link text-white pl-5" href="#">Contacto</a>
+                <li class="nav-item menu_left_icons pl-5">
+                    <a class="nav-link text-white" href="#">Contacto</a>
                 </li>
             </ul>
         </div>
@@ -61,16 +63,19 @@
         <div class="row">
             <div class="col-md-4 col-sm-12 py-1 d-flex justify-content-sm-center">
 
-                <div class="card cards-service-custom">
+                <div class="card cards-service-custom" id="cardMaritimo">
                     <div class="card-content">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <div class="text-center text-white">
                                 <i class="fas fa-ship text-white icon-card-service"></i>
                                 <h3 class="cards-dollar-fixed">Maritimo</h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
+                                <span id="txtMaritimo" class="texto-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
                                     dictum. Sed arcu nunc, finibus id fringilla et, posuere eget urna. Morbi scelerisque
                                     augue et pharetra semper. Sed faucibus diam vitae iaculis aliquet. Cras leo enim,
                                     tincidunt quis finibus a, rhoncus sed lacus.</span>
+                            </div>
+                            <div class="py-3">
+                                <span id="maritimo" class="btn btn-outline-light btn-none-border servicio-btn">Ver mas</span>
                             </div>
                         </div>
                     </div>
@@ -79,16 +84,19 @@
             </div>
             <div class="col-md-4 col-sm-12 py-1 d-flex justify-content-sm-center">
 
-                <div class="card cards-service-custom">
+                <div class="card cards-service-custom" id="cardTerrestre">
                     <div class="card-content">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <div class="text-center text-white">
                                 <i class="fas fa-truck text-white icon-card-service"></i>
                                 <h3 class="cards-dollar-fixed">Terrestre</h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
+                                <span id="txtTerrestre" class="texto-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
                                     dictum. Sed arcu nunc, finibus id fringilla et, posuere eget urna. Morbi scelerisque
                                     augue et pharetra semper. Sed faucibus diam vitae iaculis aliquet. Cras leo enim,
                                     tincidunt quis finibus a, rhoncus sed lacus.</span>
+                            </div>
+                            <div class="py-3">
+                                <span id="terrestre" class="btn btn-outline-light btn-none-border servicio-btn">Ver mas</span>
                             </div>
                         </div>
                     </div>
@@ -97,16 +105,19 @@
             </div>
             <div class="col-md-4 col-sm-12 py-1 d-flex justify-content-sm-center">
 
-                <div class="card cards-service-custom">
+                <div class="card cards-service-custom" id="cardAereo">
                     <div class="card-content">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <div class="text-center text-white">
                                 <i class="fas fa-plane-arrival text-white icon-card-service"></i>
                                 <h3 class="cards-dollar-fixed">Aereo</h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
+                                <span id="txtAereo" class="texto-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
                                     dictum. Sed arcu nunc, finibus id fringilla et, posuere eget urna. Morbi scelerisque
                                     augue et pharetra semper. Sed faucibus diam vitae iaculis aliquet. Cras leo enim,
                                     tincidunt quis finibus a, rhoncus sed lacus.</span>
+                            </div>
+                            <div class="py-3">
+                                <span id="aereo" class="btn btn-outline-light btn-none-border servicio-btn">Ver mas</span>
                             </div>
                         </div>
                     </div>
@@ -118,16 +129,19 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 py-1 justify-content-md-end d-flex justify-content-sm-center">
 
-                <div class="card cards-service-custom">
+                <div class="card cards-service-custom" id="cardMaritimo2">
                     <div class="card-content">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <div class="text-center text-white">
                                 <i class="fas fa-ship text-white icon-card-service"></i>
                                 <h3 class="cards-dollar-fixed">Maritimo</h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
+                                <span id="txtMaritimo2" class="texto-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
                                     dictum. Sed arcu nunc, finibus id fringilla et, posuere eget urna. Morbi scelerisque
                                     augue et pharetra semper. Sed faucibus diam vitae iaculis aliquet. Cras leo enim,
                                     tincidunt quis finibus a, rhoncus sed lacus.</span>
+                            </div>
+                            <div class="py-3">
+                                <span id="maritimo2" class="btn btn-outline-light btn-none-border servicio-btn">Ver mas</span>
                             </div>
                         </div>
                     </div>
@@ -136,16 +150,19 @@
             </div>
             <div class="col-md-6 col-sm-12 py-1 justify-content-md-start d-flex justify-content-sm-center">
 
-                <div class="card cards-service-custom">
+                <div class="card cards-service-custom" id="cardTerrestre2">
                     <div class="card-content">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <div class="text-center text-white">
                                 <i class="fas fa-truck text-white icon-card-service"></i>
                                 <h3 class="cards-dollar-fixed">Terrestre</h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
+                                <span id="txtTerrestre2" class="texto-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus malesuada
                                     dictum. Sed arcu nunc, finibus id fringilla et, posuere eget urna. Morbi scelerisque
                                     augue et pharetra semper. Sed faucibus diam vitae iaculis aliquet. Cras leo enim,
                                     tincidunt quis finibus a, rhoncus sed lacus.</span>
+                            </div>
+                            <div class="py-3">
+                                <span id="terrestre2" class="btn btn-outline-light btn-none-border servicio-btn">Ver mas</span>
                             </div>
                         </div>
                     </div>
@@ -166,6 +183,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src="../assets/js/index.js"></script>
 </body>
 
 </html>

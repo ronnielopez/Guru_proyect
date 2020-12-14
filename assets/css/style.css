@@ -52,11 +52,17 @@
 
 
 .fondo_img{
-    background-image: url('../img/Web\ 1920\ –\ 11@2x.png');
-    background-repeat: no-repeat;
+    background-image: url('../img/Web\ 1920\ –\ 11.png');
+    /*background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;*/
     height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 0 85% / 80%;
 
 }
 
@@ -64,6 +70,11 @@
     background-image: url('https://airwallpaper.com/wp-content/uploads/wall002/Airplane-Wallpaper-HD-Free-Download.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.fondo_degradado{
+    background: rgb(0,44,59);
+    background: linear-gradient(180deg, rgba(0,44,59,1) 0%, rgba(0,44,59,1) 23%, rgba(3,73,90,1) 100%);
 }
 
 .cards_costom{
@@ -107,8 +118,25 @@
     border-style: solid;
     border-radius: 50px 50px 50px 50px;
     width: 300px;
+    height: 200px;
 }
 
 .icon-card-service{
     font-size: 3rem;
+}
+
+.texto-none{
+    display: none;
+}
+
+.servicio-btn{
+    border-style: solid;
+    border-color: #fff;
+}
+
+.caja{
+    width: 130px;
+    background-color: grey;
+    text-align: center;
+    opacity: 0.5;
 }
