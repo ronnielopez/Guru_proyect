@@ -13,6 +13,44 @@
 
 
 
+.fondo_tres{
+    background-color: #03495a;
+    background-image: url('../img/fondo3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nosotros_image{
+    max-height: 30%;
+}
+
+.nosotros h1{
+    
+   
+    color: #fff;
+
+    
+}
+
+.nosotros h3, p{
+    text-align: right;
+    color: #fff;
+}
+
+.nosotros h2{
+    color: #fff;
+    font-weight: bold;
+}
+
+.nosotros .paises{
+    margin-top: 10rem;
+}
+
+.
+/*
+=======
+
+
 .fondo_img{
     background-image: url('../img/Web\ 1920\ –\ 11@2x.png');
     background-repeat: no-repeat;
