@@ -1,3 +1,18 @@
+
+@font-face {
+    font-family: regular;
+    src: url(../font/Poppins-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: italicFont;
+    src: url(../font/Poppins-Italic.ttf);
+  }
+
+body{
+    font-family: regular;
+}
+
 .menu_left{
     /*padding-left: 300px;*/
 }
@@ -143,6 +158,9 @@ color: white;
 
 /* page header */
 
+.space{
+    margin-bottom: 1.5rem;
+}
 
 .masthead {
     position: relative;
@@ -158,17 +176,20 @@ color: white;
     left: 0
 }
 
+.masthead h1,h2,h3{
+    font-family: italicFont;
+}
+
 .masthead h1 {
     color: #fff;
-    font-weight: 700;
     font-size: 2rem;
     line-height: 1.1;
     z-index: 1
+    
 }
 
 .masthead h2 {
     color: #fff;
-    font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.1;
     z-index: 1
@@ -176,7 +197,6 @@ color: white;
 
 .masthead h3 {
     color: rgba(255, 255, 255, .6);
-    font-weight: 600;
     z-index: 1;
     font-size: 1.2rem
 }
