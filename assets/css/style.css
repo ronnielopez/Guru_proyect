@@ -20,31 +20,6 @@
     background-size: cover;
 }
 
-.nosotros_image{
-    max-height: 30%;
-}
-
-.nosotros h1{
-    
-   
-    color: #fff;
-
-    
-}
-
-.nosotros h3, p{
-    text-align: right;
-    color: #fff;
-}
-
-.nosotros h2{
-    color: #fff;
-    font-weight: bold;
-}
-
-.nosotros .paises{
-    margin-top: 10rem;
-}
 
 /*
 =======
@@ -75,6 +50,9 @@
 .fondo_degradado{
     background: rgb(0,44,59);
     background: linear-gradient(180deg, rgba(0,44,59,1) 0%, rgba(0,44,59,1) 23%, rgba(3,73,90,1) 100%);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
 }
 
 .cards_costom{
@@ -140,3 +118,218 @@
     text-align: center;
     opacity: 0.5;
 }
+
+.form-group label{
+    color:white;
+}
+.form-control{
+    border-radius: 30px !important;
+}
+
+.btn{
+    border-radius: 30px !important;
+    width: 50%;
+}
+
+h1{
+color: white;
+}
+
+
+/* page header */
+
+
+.masthead {
+    padding: 3rem 0 7rem;
+    position: relative;
+    background: rgb(0,44,59);
+    background: linear-gradient(180deg, rgba(0,44,59,1) 0%, rgba(0,44,59,1) 23%, rgba(3,73,90,1) 100%);
+    background-size: cover;
+    z-index: 0
+}
+
+.masthead svg.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0
+}
+
+.masthead h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.1;
+    z-index: 1
+}
+
+.masthead h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    z-index: 1
+}
+
+.masthead h3 {
+    color: rgba(255, 255, 255, .6);
+    font-weight: 600;
+    z-index: 1;
+    font-size: 1.2rem
+}
+
+.masthead a {
+    color: rgba(255, 255, 255, .8);
+    text-decoration: underline;
+    z-index: 1
+}
+
+.masthead a:hover {
+    color: #fff
+}
+
+.masthead a:active {
+    text-decoration: none
+}
+
+@media(min-width:992px) {
+    .masthead h1 {
+        font-size: 3rem
+    }
+    .masthead h2 {
+        font-size: 1.5rem
+    }
+}
+
+.masthead .masthead-cards {
+    position: relative;
+    z-index: 1
+}
+
+.masthead .masthead-cards .shape {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .3);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%
+}
+
+.masthead .masthead-cards .card {
+    opacity: 1;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    color: #212529;
+    transition: .15s all
+}
+
+.masthead .masthead-cards .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem
+}
+
+.masthead .masthead-cards .card:active {
+    margin-top: inherit;
+    margin-bottom: inherit
+}
+
+.masthead .masthead-cards .card.border-bottom-blue:hover {
+    color: #2092ed
+}
+
+.masthead .masthead-cards .card.border-bottom-green:hover {
+    color: #28a745
+}
+
+.masthead .masthead-cards .card.border-bottom-red:hover {
+    color: #dd3d31
+}
+
+.masthead .masthead-cards .card.border-bottom-yellow:hover {
+    color: #ffc107
+}
+
+.masthead-page {
+    padding: 1rem 0 4rem
+}
+
+@media(min-width:992px) {
+    .masthead-page h1 {
+        font-size: 2.5rem
+    }
+}
+
+.border-bottom-yellow {
+    border-color: #ffc107!important;
+}
+
+.border-bottom-red {
+    border-color: #dd3d31!important;
+}
+
+.border-bottom-blue {
+    border-color: #2092ed!important;
+}
+
+.border-bottom-green {
+    border-color: #28a745!important;
+}
+
+.border-bottom-blue, .border-bottom-green, .border-bottom-red, .border-bottom-yellow {
+    border-bottom: .4rem solid!important;
+}
+.shadow-lg {
+    box-shadow: 0 2rem 1.5rem -1.5rem rgba(33,37,41,.15),0 0 1.5rem .5rem rgba(33,37,41,.05)!important;
+}
+.border-0 {
+    border: 0!important;
+}
+
+
+/* CSS MAPA */
+.ping1,
+.ping2,
+.ping3{position:absolute;z-index:88;left:50%;top:50%;display:block;content:"";-webkit-border-radius:116px;-moz-border-radius:116px;border-radius:116px;border:2px solid #ee4633;
+  	transition:all 0.2s ease-in-out;
+-webkit-transition:all 0.2s ease-in-out;
+   -moz-transition:all 0.2s ease-in-out;
+	 -o-transition:all 0.2s ease-in-out;
+	width:0;
+	height:0;
+	margin-left:1px;
+	margin-top:2px;}
+
+.dot:hover .ping1,
+.dot:hover .ping2,
+.dot:hover .ping3 {
+			transition:all 0.75s ease-out;
+	-webkit-transition:all 0.75s ease-out;
+	   -moz-transition:all 0.75s ease-out;
+		 -o-transition:all 0.75s ease-out;
+}
+.dot:hover .ping1 { width:116px;height:116px; margin-left:-60px;margin-top:-60px; }
+.dot:hover .ping2{width:66px;height:66px;margin-left:-35px;margin-top:-35px; 
+	   -moz-transition-delay:0.2s;
+	-webkit-transition-delay:0.2s;
+	     -o-transition-delay:0.2s;
+			transition-delay:0.2s;}
+.dot:hover .ping3{width:40px;height:40px;margin-left:-22px;margin-top:-22px;
+	   -moz-transition-delay:0.5s;
+	-webkit-transition-delay:0.5s;
+	     -o-transition-delay:0.5s;
+			transition-delay:0.5s;}
+
+
+.dot{position:absolute;z-index:99;width:14px;height:14px;background:#ee4633;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px;cursor:pointer;}
+
+#map{position:relative;margin:5% auto;width:638px;}
+
+#Guatemala{left:80px;top:175px;}
+#El_Salvador{left:165px;top:210px;}
+#Honduras {left:215px;top:120px;}
+#Nicaragua{left:320px;top:190px;}
+#Costa_Rica{left:420px;top:311px;}
+#Panama{left:550px;top:325px;}
