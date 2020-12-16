@@ -92,12 +92,17 @@
 
 .cards-service-custom{
     background-color: transparent;
-    border-color: #fff;
-    border-style: solid;
-    border-radius: 50px 50px 50px 50px;
+    border-color: transparent;
     width: 300px;
     height: 200px;
 }
+.cards-service-customjs{
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
 
 .icon-card-service{
     font-size: 3rem;
@@ -140,7 +145,6 @@ color: white;
 
 
 .masthead {
-    padding: 3rem 0 7rem;
     position: relative;
     background: rgb(0,44,59);
     background: linear-gradient(180deg, rgba(0,44,59,1) 0%, rgba(0,44,59,1) 23%, rgba(3,73,90,1) 100%);
@@ -426,3 +430,60 @@ color: white;
 #Nicaragua{left:320px;top:190px;}
 #Costa_Rica{left:420px;top:311px;}
 #Panama{left:550px;top:325px;}
+
+
+.bg-image{
+    background-image: url('../img/avion.png');
+}
+
+.btn-inicio{
+    width: 30% !important;
+}
+
+.decoration-none{
+    text-decoration: none !important;
+}
+
+.formato-img{
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    margin-left: -248px;
+    margin-top: -83px;
+}
+
+.centro{
+    text-align: -webkit-center;
+}
+
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
