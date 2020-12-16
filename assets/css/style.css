@@ -385,7 +385,7 @@ color: white;
 /* CSS MAPA */
 .ping1,
 .ping2,
-.ping3{position:absolute;z-index:88;left:50%;top:50%;display:block;content:"";-webkit-border-radius:116px;-moz-border-radius:116px;border-radius:116px;border:2px solid #ee4633;
+.ping3{position:absolute;z-index:88;left:50%;top:50%;display:block;content:"";-webkit-border-radius:116px;-moz-border-radius:116px;border-radius:116px;border:2px solid #00556E;
   	transition:all 0.2s ease-in-out;
 -webkit-transition:all 0.2s ease-in-out;
    -moz-transition:all 0.2s ease-in-out;
