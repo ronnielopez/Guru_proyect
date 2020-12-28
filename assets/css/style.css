@@ -38,6 +38,12 @@ body{
 }
 
 
+@media screen and (max-width: 700px) {
+    .left-menu{
+        margin-left: 22% !important;
+    }
+}
+
 /*
 =======
 
@@ -97,8 +103,9 @@ body{
 }
 
 .left-menu{
-    margin-left: 240px !important;
+    margin-left: 45%;
 }
+
 
 .amarillo{
     color: #fcb94f;
