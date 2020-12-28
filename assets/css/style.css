@@ -526,3 +526,11 @@ color: white;
     .gris{
         color: dimgray !important;
     }
+
+    .fondo_icon{
+        color: rgba(73, 71, 71, 0.479);   
+    }
+
+    .blanco{
+        color: #fff;
+    }
