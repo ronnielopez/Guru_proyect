@@ -476,6 +476,7 @@ color: white;
     text-align: -webkit-center;
 }
 
+
 .fade-in {
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
