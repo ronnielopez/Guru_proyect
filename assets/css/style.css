@@ -26,6 +26,10 @@ body{
     color: #000;
 }
 
+.logo{
+    margin-left: 40px;
+}
+
 .abajo-index{
     margin-top:30px;
 }
