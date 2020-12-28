@@ -367,7 +367,6 @@ color: white;
     content: '';
     width: calc(100% - 3rem);
     height: calc(100% - 3rem);
-    border: 1px solid #fff;
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
@@ -421,7 +420,7 @@ color: white;
   }
   
   .hover-3:hover .hover-overlay {
-    background: rgba(0, 0, 0, 0.8);
+    background:rgba(3, 73, 90, 0.438) ;
   }
   
 
@@ -540,4 +539,9 @@ color: white;
 
     .blanco{
         color: #fff;
+    }
+
+    .nosotros_h3{
+        font-size: 1rem !important;
+        font-family: regular;
     }
