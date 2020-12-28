@@ -487,7 +487,9 @@ color: white;
 .centro{
     text-align: -webkit-center;
 }
-
+ .derecha{
+     
+ }
 
 .fade-in {
     animation: fadeIn ease 2s;
