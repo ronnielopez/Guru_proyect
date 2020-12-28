@@ -59,7 +59,7 @@ body{
 }
 
 .fondo_img_servicios{
-    background-image: url('https://airwallpaper.com/wp-content/uploads/wall002/Airplane-Wallpaper-HD-Free-Download.jpg');
+    background-image: url('../img/servicio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
